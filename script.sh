@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# Adapted from a github gist and will be added to for personal reference file
+
 # Echo command
 echo Hello World!
 
@@ -121,4 +123,22 @@ while read -r CURRENT_LINE
     ((LINE++))
 done < "./new-1.txt"
 
+# FUNCTION
+function sayHello() {
+  echo "Hello World"
+}
+sayHello
+
+# FUNCTION WITH PARAMS
+function greet() {
+  echo "Hello, I am $1 and I am $2"
+}
+
+greet "Damian" "23"
+
+# CREATE FOLDER AND WRITE TO A FILE
+mkdir hello
+touch "hello/world.txt"
+echo "Hello World" >> "hello/world.txt"
+echo "Created hello/world.txt"
 
