@@ -1,6 +1,7 @@
 #! /bin/bash
 
 # Adapted from a github gist and will be added to for personal reference file
+# https://gist.github.com/bradtraversy/ac3b1136fc7d739a788ad1e42a78b610#file-myscript-sh-L64
 
 # Echo command
 echo Hello World!
